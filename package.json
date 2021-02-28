@@ -1,0 +1,29 @@
+{
+    "name": "OpenAIBot",
+    "version": "1.0.0",
+    "description": "Discord Bot using OpenAI's beta GPT-3 API",
+    "main": "index.js",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "discord.js": "^12.5.1",
+        "mongoose": "^5.11.18"
+    },
+    "devDependencies": {
+        "dotenv": "^8.2.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jtams/Discord-Bot-Using-GPT-3.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jtams/Discord-Bot-Using-GPT-3/issues"
+    },
+    "homepage": "https://github.com/jtams/Discord-Bot-Using-GPT-3#readme"
+}

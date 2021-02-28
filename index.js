@@ -4,7 +4,7 @@ const axios = require("axios");
 const config = require("./bin/config.json");
 const client = new Discord.Client();
 const mongoose = require("mongoose");
-mongoose.connect(process.env.DBLOGIN, { useUnifiedTopology: true });
+mongoose.connect(process.env.DBLOGIN, { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true });
 const User = require("./schemas/user");
 const { ai } = require("./src/ai");
 
